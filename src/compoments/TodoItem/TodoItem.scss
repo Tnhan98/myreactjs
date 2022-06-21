@@ -1,0 +1,27 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: #f4f4f4;
+    &:hover {
+      background-color: #ccc;
+    }
+  }
+  .content {
+    margin: 10px;
+    flex: 1;
+  }
+  .delete-btn {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #c00;
+    color: #fff;
+    &:hover {
+      background-color: red;
+      cursor: pointer;
+    }
+  }
+  .is-completed {
+    text-decoration: line-through;
+  }
